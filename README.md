@@ -18,12 +18,12 @@ Springboot + Redis + Mybatis + RabbitMQ
    2.1 在工程中创建一个package然后根据下文做: https://blog.csdn.net/qq_38455201/article/details/80308771
    
    2.2 在CityServiceImpl.java中添加方法: getAllCities() ，该方法调用producer。
-   
+  
+如果直接在工程里用RabbitMQ让你觉得有点陌生有点迷糊，可以在这个工程中练练手，熟悉一下RabbitMQ的基本用法，例如生产者-交换机-队列-消费者的模式：https://www.jianshu.com/p/0d400d30936b
 
+注意，在学习RBMQ的时候，可以多用用它提供的web管理页面： localhost:15672，通过可视化页面查看当前队列的状态，还可以查看队列和交换机的绑定情况。
 
-
-
-
+-----------------------------------------------------------------------------
 
 If you want to build this project step by step from nothing, do as following:
 
